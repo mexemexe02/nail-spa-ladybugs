@@ -125,18 +125,15 @@
         }
 
         .logo {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--primary-red);
             display: flex;
             align-items: center;
-            gap: 10px;
+            height: 60px;
         }
 
-        .logo i {
-            color: var(--primary-red);
-            font-size: 1.8rem;
+        .logo img {
+            height: 100%;
+            width: auto;
+            object-fit: contain;
         }
 
         nav ul {
@@ -388,9 +385,8 @@
     <!-- HEADER -->
     <header>
         <div class="container nav-container">
-            <a href="#" class="logo">
-                <i class="fa-solid fa-crow"></i> 
-                NAIL SPA LADYBUGS
+            <a href="#home" class="logo" aria-label="Nail Spa Ladybugs home">
+                <img src="logo.png" alt="Nail Spa Ladybugs">
             </a>
             <nav>
                 <ul>
