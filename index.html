@@ -305,16 +305,34 @@
 
         .promo-card h2 {
             color: white;
-            font-size: 2.5rem;
-            margin-bottom: 10px;
+            font-size: 2rem;
+            margin-bottom: 8px;
+            font-weight: 700;
+            letter-spacing: 0.02em;
         }
 
-        .promo-card .discount {
-            font-size: 3.5rem;
-            font-weight: 900;
-            line-height: 1;
-            margin: 20px 0;
+        .promo-card .promo-tagline {
+            font-size: 1.1rem;
+            opacity: 0.95;
+            margin-bottom: 16px;
+            font-weight: 400;
+            max-width: 420px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .promo-card .promo-price {
             font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            margin: 16px 0 24px;
+        }
+
+        .promo-card .promo-price small {
+            font-size: 0.6em;
+            font-weight: 400;
+            opacity: 0.9;
         }
 
         /* --- CONTACT --- */
@@ -486,12 +504,10 @@
     <section id="specials" class="promo-section">
         <div class="container">
             <div class="promo-card">
-                <h2>Senior Discount for first visit</h2>
-                <div class="discount">ALWAYS 10% OFF</div>
-                <p>Available for seniors and qualifying age groups.</p>
-                <div style="margin-top: 20px;">
-                    <a href="tel:2493883161" class="btn" style="background: white; color: var(--primary-red);">Call Now</a>
-                </div>
+                <h2>Always Special</h2>
+                <p class="promo-tagline">A 10-minute foot massage with every pedicure — our signature treat for every guest.</p>
+                <p class="promo-price">$40 <small>total</small></p>
+                <a href="tel:2493883161" class="btn" style="background: white; color: var(--primary-red);">Call to Book</a>
             </div>
         </div>
     </section>
